@@ -21,3 +21,6 @@ gem 'middleman-gh-pages'
 
 # Rake?
 gem "rake", "10.4.2"
+
+#Middleman deploy
+gem "middleman-deploy", "~> 1.0"
