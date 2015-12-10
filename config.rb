@@ -79,7 +79,7 @@ end
  activate :deploy do |deploy|
    deploy.method = :git
    deploy.build_before = true
-   deploy.branch   = "master"
+   deploy.branch   = "gh-pages"
    deploy.remote   = "git@github.com:digin8/digin8.github.io.git"
 end
 
